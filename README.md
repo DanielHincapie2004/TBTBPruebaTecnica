@@ -15,7 +15,7 @@ En este repositorio encontrará la solución a la prueba técnica propuesta. La 
 Inicialmente, en la carpeta donde deseamos tener el repositorio, debemos abrir una terminal y ejecutar el siguiente comando:
 
 ```bash
-git clone https://github.com/DanielHincapie2004/Prueba-Tecnica.git
+git clone https://github.com/DanielHincapie2004/TBTBPruebaTecnica.git
 ```
      
 ## Parte I: Base de datos
