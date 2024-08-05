@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TBTBGlobal_PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5152fc5a47b9323d9e8b2fa8be4c989003eabb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90e58fb507e17f37a5a46d9fdb4b6f374c5581e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TBTBGlobal_PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TBTBGlobal_PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
