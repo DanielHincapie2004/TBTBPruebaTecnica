@@ -1,0 +1,22 @@
+
+<div class="logo-container">
+  <img class="logo" src="assets/logo.png" alt="">
+</div>
+<div class="filter-container">
+  <input type="text" placeholder="Filtrar por nombre, correo o ciudad" [(ngModel)]="filterText" (input)="filterUsers()" />
+</div>
+<div class="users-container">
+  <div class="user-card" *ngFor="let user of filteredUsers" (click)="openModal(user)">
+    <div class="user-card-body">
+      <div class="img-container">
+        <img [src]="user.image" alt="{{ user.name }}">
+      </div>
+      <h5 class="user-card-title">{{ user.name }}</h5>
+      <h6 class="user-card-subtitle">{{ user.email }}</h6>
+    </div>
+  </div>
+</div>
+
+<p class="footer">Prueba técnica desarrollada por Daniel Hincapie</p>
+
+<app-user-modal *ngIf="selectedUser" [user]="selectedUser" (closeModal)="closeModal()"></app-user-modal>
